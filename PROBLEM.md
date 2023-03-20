@@ -4,9 +4,9 @@
 ![](https://github.com/YuanzheSu/FDTD_PWS/blob/main/asset/brightfield.bmp)
 #### 2. Sigma is 10x larger than predicted
 Media is custom generated, and the calculated $\Sigma$ is way larger than theory value.
-![](https://github.com/YuanzheSu/FDTD_PWS/blob/main/asset/sigma.bmp)\\
+![](https://github.com/YuanzheSu/FDTD_PWS/blob/main/asset/sigma.bmp) 
 
-Predicted $\Sigma$ is <0.1.\\
+Predicted $\Sigma$ is <0.1. 
 I am not sure does problem 1 caused 2 or are they independent.
 
 ### Details
@@ -21,14 +21,14 @@ See ```FDTD\chromatin_on_glass_NAi55_a20.cfg``` Slightly modified from one of yo
 
 ##### 2.1 Grid setup
 $dx = 10 nm$, $X=Y=3 \mu m$, $Z = 4 \mu m$, 1 $\mu m$ thick glass on top, 3 $\mu m$ thick media on bottom.
-![](https://github.com/YuanzheSu/FDTD_PWS/blob/main/asset/geom.png) \\
+![](https://github.com/YuanzheSu/FDTD_PWS/blob/main/asset/geom.png) 
 Time step = 8000. Sufficient, see field value recording at center.
-![](https://github.com/YuanzheSu/FDTD_PWS/blob/main/asset/fieldvaluerecording.bmp)\\
+![](https://github.com/YuanzheSu/FDTD_PWS/blob/main/asset/fieldvaluerecording.bmp)
 #### 2.2 Waveforms
 500-700 nm.
 #### 2.3 Incident
 Used your method of using 20 plane waves to describe NAi=0.55
-![](https://github.com/YuanzheSu/FDTD_PWS/blob/main/asset/incident.png)\\
+![](https://github.com/YuanzheSu/FDTD_PWS/blob/main/asset/incident.png)
 #### 2.3 Recording
 ```
 OpticalImages:
