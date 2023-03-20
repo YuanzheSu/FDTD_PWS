@@ -1,0 +1,5 @@
+error: waveform with tag "waveform" not found
+--------------------------------------------------------------------------
+mpirun noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
