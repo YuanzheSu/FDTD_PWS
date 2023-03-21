@@ -2,9 +2,27 @@
 ### Problems
 #### 1. Bright field image of synthesized bright field image looks crapy
 ![](https://github.com/YuanzheSu/FDTD_PWS/blob/main/asset/brightfield.bmp)
+<p align = "center">
+Fig.1 - Bright field,M=20,OS=16
+</p>
+
+![](https://github.com/YuanzheSu/FDTD_PWS/blob/main/asset/fig1_M=1.bmp)
+<p align = "center">
+Fig.1x - Bright field,M=1,OS=1
+</p>
+
+
 #### 2. Sigma is 10x larger than predicted
 Media is custom generated, and the calculated $\Sigma$ is way larger than theory value.
 ![](https://github.com/YuanzheSu/FDTD_PWS/blob/main/asset/sigma.bmp) 
+<p align = "center">
+Fig.2 - Spectra,M=20,OS=16
+</p>
+
+![](https://github.com/YuanzheSu/FDTD_PWS/blob/main/asset/fig2_M=1.bmp)
+<p align = "center">
+Fig.2x - Spectra,M=1,OS=1. Spectra dominated by green as can be seen from bright field.
+</p>
 
 Predicted $\Sigma$ is <0.1. 
 I am not sure does problem 1 caused 2 or are they independent.
